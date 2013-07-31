@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('mimemagic', '~> 0.2.0')
   s.add_runtime_dependency('multi_json', '~> 1.7.3')
   s.add_runtime_dependency('nokogiri', '~> 1.6.0')
-  s.add_runtime_dependency('rack', '~> 1.5.0')
+  s.add_runtime_dependency('rack', '>= 1.4.5')
   s.add_runtime_dependency('redcarpet', '~> 3.0.0')
   s.add_runtime_dependency('rugged', '~> 0.19.0')
   s.add_runtime_dependency('slim', '~> 2.0.0')
